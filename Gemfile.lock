@@ -34,7 +34,6 @@ GEM
     minitest (5.3.4)
     multipart-post (2.0.0)
     naught (1.0.0)
-    pg (0.17.1)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -69,7 +68,6 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
-  pg
   rake
   redis
   sinatra-activerecord
