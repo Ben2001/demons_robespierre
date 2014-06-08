@@ -10,3 +10,4 @@
 *.sqlite3
 /public/tracks
 *.rdb
+.bundle/
