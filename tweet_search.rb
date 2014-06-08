@@ -1,7 +1,6 @@
 require 'twitter'
 require './model_tweet'
 require 'sinatra/activerecord'
-require 'dotenv'
 Dotenv.load
 require './model_redis'
 
