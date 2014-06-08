@@ -1,7 +1,6 @@
 require 'twitter'
 require './model_tweet'
 require 'sinatra/activerecord'
-Dotenv.load
 require './model_redis'
 
 client = Twitter::Streaming::Client.new do |config|
