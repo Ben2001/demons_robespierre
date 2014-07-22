@@ -1,5 +1,7 @@
 require 'twitter'
 require 'redis'
+require 'dotenv'
+Dotenv.load
 
 client = Twitter::Streaming::Client.new do |config|
   config.consumer_key        = ENV['CONSUMER_KEY']
